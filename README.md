@@ -1,1 +1,2 @@
 # Javascripts
+Javascripts for Browser
