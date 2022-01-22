@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+    <style>
+        main,div,p,span{display: block;}
+        main{border: 100px}
+        div{background-color: burlywood}
+        p{background-color: chartreuse}
+        span{background-color: chocolate}
+        .gold{
+            background: gold;
+        }
+    </style>
+</head>
+<body>
+    touka
+    <main id="m">
+        goto
+        <div id="d">
+            mein
+            <p id="p">
+                <span id="s">TIP</span>
+                ora
+            </p>
+        </div>
+    </main>
+    <script src="./event-bubble.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!-- The basic rules for creating a valid XML file as well as the purpose behind XML. -->
+<!-- HTML - formatting the content to be displayed by the webpage-->
+<!-- XML - formatting the data to be human-readable as well as computer-readable-->
+
+<?xml version="1.0" encoding="UTF-8"?> <!--Description of an XML file-->
+<fargo> <!--The main element that contains everything inside-->
+    <movie year="2010">
+        <directors names = "Christopher Nolan"/>
+        <cast>Leonardo de Caprio</cast>
+        <cast>Frances Mary</cast>
+    </movie>
+    <tv-series year="2014">
+        <cast>Morgan Freeman</cast>
+        <cast>Scarlet Johansson</cast>
+    </tv-series>
+</fargo>
